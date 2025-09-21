@@ -93,9 +93,9 @@ public class SecurityConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("Sistema de Turnos API")
+                        .title("Sistema Gestion de lista de compras")
                         .version("v1.0")
-                        .description("API REST para la gestión de turnos")
+                        .description("API REST para la gestión de compras")
                         .contact(new Contact()
                                 .name("Eliecer Bautista")
                                 .email("eliecer@ing.software")

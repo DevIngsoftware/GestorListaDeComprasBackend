@@ -28,5 +28,5 @@ public class UserModel {
     @Column(unique = true)
     private String email;
 
-    private String password; // guardaremos el hash
+    private String password;
 }
